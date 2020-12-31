@@ -25,11 +25,12 @@ Dữ liệu được lấy từ 1/1/2009 đến ngày 21/12/2020.
 	+ Crawl thêm nhiều dữ liệu từ các nguồn khác nhau để model được huấn luyện tốt hơn.
 	+ Khai thác thêm tính chu kỳ của thời tiết qua các năm. 
 7. Phân công công việc:
-- Tâm: preprocessing, EDA, modelling, evaluation.
-- Tú: Crawl data, EDA, modelling, viết report.
+- [Huỳnh Văn Tú](https://github.com/tuhyn): Crawl data, EDA, modelling, viết report.
+- [Nguyễn Ngọc Băng Tâm](https://github.com/nnbtam99): preprocessing, EDA, modelling, evaluation.
 8. Hướng dẫn chạy các file notebook:
 - Bước 1: chạy file `CrawlData.ipynb` để crawl data từ Web và lưu lại data vào file `weather.csv` và `weather_full_df.csv`
 - Bước 2: chạy file `PredictionTemperature.ipynb` để tiến hành load data & preprocessing, EDA, modelling and evaluation.
+
 
 
 
