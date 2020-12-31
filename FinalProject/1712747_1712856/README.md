@@ -4,17 +4,19 @@
 Dữ liệu được lấy từ 1/1/2009 đến ngày 21/12/2020.
 4. Tổng quan dữ liệu thu thập được: Gồm 4369 dòng và 11 cột. Dữ liệu cần dữ đoán là cột Mean (Nhiệt độ trung bình)
 5. Ý nghĩa của từng cột:
-    Date: Ngày tháng năm 
-    Weather: Thời tiết chung trong ngày (kiểu dữ liệu phân loại)
-    Mean: Nhiệt độ trung bình trong ngày (đơn vị °c)
-    Max: Nhiệt độ lớn nhất trong ngày (đơn vị °c)
-    Min: Nhiệt độ nhỏ nhất trong ngày (đơn vị °c)
-    Wind: Vận tốc gió trong ngày (đơn vị km/h)
-    Direction: Hướng gió trong ngày (kiểu dữ liệu phân loại)
-    Rain: Lượng mưa trung bình trong ngày (đơn vị mm)
-    Humidity: Độ ẩm trung bình trong ngày (đơn vị %) 
-    Cloud: Độ bao phủ của mây trong ngày (đơn vị %)
-    Pressure: Áp suất trung bình trong ngày (đơn vị mb)
+
+    - Date: Ngày tháng năm 
+    - Weather: Thời tiết chung trong ngày (kiểu dữ liệu phân loại)
+    - Mean: Nhiệt độ trung bình trong ngày (đơn vị °c)
+    - Max: Nhiệt độ lớn nhất trong ngày (đơn vị °c)
+    - Min: Nhiệt độ nhỏ nhất trong ngày (đơn vị °c)
+    - Wind: Vận tốc gió trong ngày (đơn vị km/h)
+    - Direction: Hướng gió trong ngày (kiểu dữ liệu phân loại)
+    - Rain: Lượng mưa trung bình trong ngày (đơn vị mm)
+    - Humidity: Độ ẩm trung bình trong ngày (đơn vị %) 
+    - Cloud: Độ bao phủ của mây trong ngày (đơn vị %)
+    - Pressure: Áp suất trung bình trong ngày (đơn vị mb)
+
 6. Tự đánh giá:
 - Kết quả: Ta có được một Ensemble Model dựa trên Linear Regression và SVR để có thể dự đoán nhiệt độ của một ngày khi biết trước các thông tin như: nhiệt độ trung bình (Mean), nhiệt độ lớn nhất (Max), nhiệt độ thấp nhất (Min), tốc độ gió (Wind), lượng mưa (Rain), áp suất (Pressure), độ che phủ của mấy( Cloud) của `n=3` ngày trước đó. 
 - Thiếu sót: 
