@@ -1,4 +1,4 @@
-1. **Câu hỏi**: Dự đoán nhiệt độ của Thành phố Hồ Chí Minh trong 1 ngày tới.
+1. **Câu hỏi**: Dự đoán nhiệt độ của Thành phố Hồ Chí Minh trong 1 ngày tới dựa trên các thông tin thời tiết của `N` ngày trước đó.
 2. Nếu trả lời được câu hỏi thì khi đó ta sẽ có một mô hình dự đoán thời tiết đơn giản, có thể dự đoán trên máy tính với phần cứng nhỏ hơn (thay vì chạy các máy mainframe siêu tốn tài nguyên như các mô hình vật lý).
 3. Thu thập dữ liệu bằng cách parse HTML từ trang [World Weather Online](https://www.worldweatheronline.com/ho-chi-minh-city-weather-history/vn.aspx)
 Dữ liệu được lấy từ 1/1/2009 đến ngày 21/12/2020.
