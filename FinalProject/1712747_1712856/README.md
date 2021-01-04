@@ -32,6 +32,8 @@ Dữ liệu được lấy từ 1/1/2009 đến ngày 21/12/2020.
 - Bước 1: chạy file `CrawlData.ipynb` để crawl data từ Web và lưu lại data vào file `weather.csv` và `weather_full_df.csv`
 - Bước 2: chạy file `PredictionTemperature.ipynb` để tiến hành load data & preprocessing, EDA, modelling and evaluation.
 
+**Note:** File poster đính kèm nhằm cung cấp bản tóm tắt kết quả cài đặt và tìm hiểu đồ án.
+
 
 
 
