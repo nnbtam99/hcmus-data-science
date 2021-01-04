@@ -4,3 +4,4 @@ Learn about the pipeline of a data science project
 - Data preprocessing / Data cleaning
 - EDA and visualization
 - Modelling and evaluation
+- Creating scientific poster
