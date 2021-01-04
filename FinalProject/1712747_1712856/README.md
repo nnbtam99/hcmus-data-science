@@ -2,7 +2,7 @@
 2. Nếu trả lời được câu hỏi thì khi đó ta sẽ có một mô hình dự đoán thời tiết đơn giản, có thể dự đoán trên máy tính với phần cứng nhỏ hơn (thay vì chạy các máy mainframe siêu tốn tài nguyên như các mô hình vật lý).
 3. Thu thập dữ liệu bằng cách parse HTML từ trang [World Weather Online](https://www.worldweatheronline.com/ho-chi-minh-city-weather-history/vn.aspx)
 Dữ liệu được lấy từ 1/1/2009 đến ngày 21/12/2020.
-4. Tổng quan dữ liệu thu thập được: Gồm 4369 dòng và 11 cột. Dữ liệu cần dữ đoán là cột Mean (Nhiệt độ trung bình)
+4. Tổng quan dữ liệu thu thập được: Gồm 4369 dòng và 11 cột. Dữ liệu cần dữ đoán là cột Mean (Nhiệt độ trung bình). Tỷ lệ train : test ~ 85:15
 5. Ý nghĩa của từng cột:
 
     - Date: Ngày tháng năm 
@@ -22,13 +22,12 @@ Dữ liệu được lấy từ 1/1/2009 đến ngày 21/12/2020.
 - Thiếu sót: 
     + Model dự đoán vẫn còn chênh lệch so với nhiệt độ thật. 
 - Hướng phát triển: 
-	+ Chạy GridSearch để dò tìm tập tham số tối ưu nhất của mô hình SVR.
 	+ Phân tích các features kỹ hơn để có thể chọn được những features tốt nhất cho model.
 	+ Crawl thêm nhiều dữ liệu từ các nguồn khác nhau để model được huấn luyện tốt hơn.
 	+ Khai thác thêm tính chu kỳ của thời tiết qua các năm. 
 7. Phân công công việc:
 - [Huỳnh Văn Tú](https://github.com/tuhyn): Crawl data, EDA, modelling, viết report.
-- [Nguyễn Ngọc Băng Tâm](https://github.com/nnbtam99): preprocessing, EDA, modelling, evaluation.
+- [Nguyễn Ngọc Băng Tâm](https://github.com/nnbtam99): preprocessing, EDA, modelling, evaluation, soạn poster.
 8. Hướng dẫn chạy các file notebook:
 - Bước 1: chạy file `CrawlData.ipynb` để crawl data từ Web và lưu lại data vào file `weather.csv` và `weather_full_df.csv`
 - Bước 2: chạy file `PredictionTemperature.ipynb` để tiến hành load data & preprocessing, EDA, modelling and evaluation.
