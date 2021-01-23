@@ -5,3 +5,6 @@ Learn about the pipeline of a data science project
 - EDA and visualization
 - Modelling and evaluation
 - Creating scientific poster
+
+Our final project sypnosis on Temperature prediction in HCMC, Vietnam
+![Image](https://i.ibb.co/VwbWJKy/Project-Poster-Temperature-Prediction-in-HCMC-1.jpg)
